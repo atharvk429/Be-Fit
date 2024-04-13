@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Goals</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-center text-2xl font-bold mb-8">What are your goals?</h1>
+    <div class="mb-6">
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="weight-loss" class="ml-2">Weight Loss</label>
+            <input type="checkbox" id="weight-loss" class="ml-auto w-5 h-5">
+        </div>
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="muscle-gain" class="ml-2">Muscle Gain</label>
+            <input type="checkbox" id="muscle-gain" class="ml-auto w-5 h-5">
+        </div>
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="flex-mob" class="ml-2">Flexibility and Mobility</label>
+            <input type="checkbox" id="flex-mob" class="ml-auto w-5 h-5">
+        </div>
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="gen-fit" class="ml-2">General Fitness</label>
+            <input type="checkbox" id="gen-lfit" class="ml-auto w-5 h-5">
+        </div>
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="event-train" class="ml-2">Event - specific Training</label>
+            <input type="checkbox" id="event-train" class="ml-auto w-5 h-5">
+        </div>
+        <div class="mx-auto bg-gray-100 shadow-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block p-2.5 my-4 flex item-center mb-2 font-medium">
+            <label for="mind-mental" class="ml-2">Mindfulness and Mental Health</label>
+            <input type="checkbox" id="mind-menta" class="ml-auto w-5 h-5">
+        </div>
+    </div>
+    <footer class="mt-64 mx-4">
+        <button id="confirmButton" class="text-white bg-blue-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-2xl px-5 py-2.5 text-center mr-2 mb-2 w-full h-14">Confirm</button>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
